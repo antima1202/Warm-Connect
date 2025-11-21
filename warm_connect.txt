@@ -1,0 +1,206 @@
+{
+    "widgets": [
+        {
+            "x": 0,
+            "y": 0,
+            "type": "static-text",
+            "title": "🌟 Welcome to WarmConnect!🌟",
+            "width": 12,
+            "height": 7,
+            "content": "WarmConnect is designed to be your safe, supportive space, gently guiding you toward a more connected and fulfilling social life.\n \nIn today’s busy, hyper-digital world, it’s easy to feel lonely without even realising it 😔📱. You’re not alone, and you don’t have to navigate this journey alone either.\n \n✨ What WarmConnect Does for You\n💬 Identifies early signs of loneliness through thoughtful, science-based questions\n🌱 Helps you understand your type of loneliness and what might be causing it\n🎯 Gives personalised reconnection strategies tailored to your lifestyle\n🧩 Offers small, doable tasks & fun mini-challenges to help you take the first step\n💌 Generates conversation starters so you can reach out, reconnect, and rebuild meaningful bonds\n \n💖 You Matter Here\n \nWhether you’re just curious, feeling a bit disconnected, or looking for ways to improve your mental well-being, WarmConnect is here to support you every step of the way.\n \nLet’s take this journey toward warmth, connection, and better mental health ~ together 🤝✨\n "
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "type": "select",
+            "title": "Alone Time Enjoyment",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Never",
+                "Rarely",
+                "Sometimes",
+                "Often",
+                "Always"
+            ],
+            "placeholder": "Select how often you enjoy solitude",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "type": "select",
+            "title": "Desire for Company",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Never",
+                "Rarely",
+                "Sometimes",
+                "Often",
+                "Always"
+            ],
+            "placeholder": "Select how often you wish for company when alone",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "type": "select",
+            "title": "Weekly Social Interactions",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "0",
+                "1-2",
+                "3-5",
+                "6-10",
+                "10+"
+            ],
+            "placeholder": "Select your typical weekly social interactions",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "type": "text-input",
+            "title": "Solitude Feelings",
+            "width": 12,
+            "height": 2,
+            "placeholder": "Describe your feelings when alone (e.g., Rested, Anxious, Lonely, Productive). List multiple if applicable."
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "type": "select",
+            "title": "Social Satisfaction",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Never",
+                "Rarely",
+                "Sometimes",
+                "Often",
+                "Always"
+            ],
+            "placeholder": "Select how often your social interactions feel meaningful",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "type": "text-input",
+            "title": "Major Life Changes",
+            "width": 12,
+            "height": 2,
+            "placeholder": "List any recent major life changes (e.g., moved, job change, breakup, new parent, bereavement); else NA"
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "type": "select",
+            "title": "Confiding Relationships",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Yes",
+                "No",
+                "Unsure"
+            ],
+            "placeholder": "Do you have at least one person you can confide in about important things?",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "type": "select",
+            "title": "Interaction Quality Satisfaction",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Very dissatisfied",
+                "Dissatisfied",
+                "Neutral",
+                "Satisfied",
+                "Very satisfied"
+            ],
+            "placeholder": "How satisfied are you with the quality/depth of your social interactions?",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "type": "select",
+            "title": "Isolation Feelings",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Never",
+                "Rarely",
+                "Sometimes",
+                "Often",
+                "Always"
+            ],
+            "placeholder": "In the past 2 weeks: I feel isolated from others",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "type": "select",
+            "title": "Disconnection in Social Gatherings",
+            "width": 12,
+            "height": 2,
+            "options": [
+                "Never",
+                "Rarely",
+                "Sometimes",
+                "Often",
+                "Always"
+            ],
+            "placeholder": "In the past 2 weeks: I feel disconnected in social gatherings",
+            "defaultValue": null
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "type": "inferred-text",
+            "title": "Loneliness Risk Assessment",
+            "width": 6,
+            "height": 9,
+            "prompt": "Based on these responses:\n- Enjoyment of solitude: [Alone Time Enjoyment]\n- Desire for company: [Desire for Company]\n- Weekly social interactions: [Weekly Social Interactions]\n- Feelings in solitude: [Solitude Feelings]\n- Social satisfaction: [Social Satisfaction]\n- Recent life changes: [Major Life Changes]\n- Confiding relationships: [Confiding Relationships]\n- Interaction quality satisfaction: [Interaction Quality Satisfaction]\n- Isolation feelings (past 2 weeks): [Isolation Feelings]\n- Disconnection in social gatherings: [Disconnection in Social Gatherings]\n\nProvide a warm and empathetic loneliness risk assessment. Include a score out of 100 and explain it compassionately. Focus on both strengths and areas for growth. Format as: Score: X/100, followed by two paragraphs of interpretation.\n\n\n",
+            "parameters": {
+                "model": "bedrock-anthropic.claude-3-5-sonnet-v2-0",
+                "temperature": 0
+            }
+        },
+        {
+            "x": 6,
+            "y": 27,
+            "type": "inferred-text",
+            "title": "Personalized Strategies",
+            "width": 6,
+            "height": 9,
+            "prompt": "Considering:\n- Solitude patterns: [Alone Time Enjoyment]\n- Social needs: [Desire for Company]\n- Current interactions: [Weekly Social Interactions]\n- Emotional state: [Solitude Feelings]\n- Satisfaction: [Social Satisfaction]\n- Life changes: [Major Life Changes]\n- Confiding support: [Confiding Relationships]\n- Interaction quality: [Interaction Quality Satisfaction]\n- Isolation feelings: [Isolation Feelings]\n- Disconnection patterns: [Disconnection in Social Gatherings]\n\nProvide: 1) 3-4 tailored reconnection strategies, 2) 2-3 relationship-building mini-challenges, 3) 3-5 personalized conversation starters, and 4) 3-4 daily connection goals. Make suggestions warm, specific, and achievable. Format each category clearly.",
+            "parameters": {
+                "model": "bedrock-anthropic.claude-3-5-sonnet-v2-0",
+                "temperature": 0
+            }
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "type": "chat",
+            "title": "Warmifier Suggestion Bot",
+            "width": 12,
+            "height": 7,
+            "parameters": {
+                "model": "bedrock-anthropic.claude-3-5-sonnet-v2-0",
+                "temperature": 0.7
+            },
+            "placeholder": "Describe your situation, ask for ideas, or tell me what you'd like to work on...",
+            "initialUserMessage": "Hi! I'd like help with my social connections. Can you suggest some ideas?",
+            "initialAssistantMessage": "Welcome to Warmifier! I'm here to help you strengthen your connections and find ways to improve your social wellbeing. You can tell me about specific situations, ask for conversation starters, get ideas for connecting with friends, or explore different approaches to building meaningful relationships. What would you like help with today?"
+        }
+    ]
+}
