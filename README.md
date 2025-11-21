@@ -26,4 +26,4 @@ Tailored strategies to reconnect with friends
 Strategies to make new friends
 It can also generate conversation starters for users to connect with people via text and initiate social meetups.
 
-Link to the app: https://github.com/antima1202/Warm-Connect/blob/main/warm_connect.txt
+Link to the JSON code: https://github.com/antima1202/Warm-Connect/blob/main/warm_connect.txt
