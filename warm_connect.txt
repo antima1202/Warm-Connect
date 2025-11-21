@@ -6,12 +6,12 @@
             "type": "static-text",
             "title": "🌟 Welcome to WarmConnect!🌟",
             "width": 12,
-            "height": 7,
-            "content": "WarmConnect is designed to be your safe, supportive space, gently guiding you toward a more connected and fulfilling social life.\n \nIn today’s busy, hyper-digital world, it’s easy to feel lonely without even realising it 😔📱. You’re not alone, and you don’t have to navigate this journey alone either.\n \n✨ What WarmConnect Does for You\n💬 Identifies early signs of loneliness through thoughtful, science-based questions\n🌱 Helps you understand your type of loneliness and what might be causing it\n🎯 Gives personalised reconnection strategies tailored to your lifestyle\n🧩 Offers small, doable tasks & fun mini-challenges to help you take the first step\n💌 Generates conversation starters so you can reach out, reconnect, and rebuild meaningful bonds\n \n💖 You Matter Here\n \nWhether you’re just curious, feeling a bit disconnected, or looking for ways to improve your mental well-being, WarmConnect is here to support you every step of the way.\n \nLet’s take this journey toward warmth, connection, and better mental health ~ together 🤝✨\n "
+            "height": 8,
+            "content": "WarmConnect is designed to be your safe, supportive space, gently guiding you toward a more connected and fulfilling social life.\n \nIn today’s busy, hyper-digital world, it’s easy to feel lonely without even realising it 😔📱. You’re not alone, and you don’t have to navigate this journey alone either.\n \n✨ What WarmConnect Does for You\n💬 Identifies early signs of loneliness through thoughtful, science-based questions\n🌱 Helps you understand your type of loneliness and what might be causing it\n🎯 Gives personalised reconnection strategies tailored to your lifestyle\n🧩 Offers small, doable tasks & fun mini-challenges to help you take the first step\n💌 Generates conversation starters so you can reach out, reconnect, and rebuild meaningful bonds\n \n💖 You Matter Here\n \nWhether you’re just curious, feeling a bit disconnected, or looking for ways to improve your mental well-being, WarmConnect is here to support you every step of the way.\n \nLet’s take this journey toward warmth, connection, and better mental health ~ together 🤝✨\n \nPlease answer the following question to get started: "
         },
         {
             "x": 0,
-            "y": 7,
+            "y": 8,
             "type": "select",
             "title": "Alone Time Enjoyment",
             "width": 12,
@@ -28,7 +28,7 @@
         },
         {
             "x": 0,
-            "y": 9,
+            "y": 10,
             "type": "select",
             "title": "Desire for Company",
             "width": 12,
@@ -45,7 +45,7 @@
         },
         {
             "x": 0,
-            "y": 11,
+            "y": 12,
             "type": "select",
             "title": "Weekly Social Interactions",
             "width": 12,
@@ -62,7 +62,7 @@
         },
         {
             "x": 0,
-            "y": 13,
+            "y": 14,
             "type": "text-input",
             "title": "Solitude Feelings",
             "width": 12,
@@ -71,7 +71,7 @@
         },
         {
             "x": 0,
-            "y": 15,
+            "y": 16,
             "type": "select",
             "title": "Social Satisfaction",
             "width": 12,
@@ -88,7 +88,7 @@
         },
         {
             "x": 0,
-            "y": 17,
+            "y": 18,
             "type": "text-input",
             "title": "Major Life Changes",
             "width": 12,
@@ -97,7 +97,7 @@
         },
         {
             "x": 0,
-            "y": 19,
+            "y": 20,
             "type": "select",
             "title": "Confiding Relationships",
             "width": 12,
@@ -112,7 +112,7 @@
         },
         {
             "x": 0,
-            "y": 21,
+            "y": 22,
             "type": "select",
             "title": "Interaction Quality Satisfaction",
             "width": 12,
@@ -129,7 +129,7 @@
         },
         {
             "x": 0,
-            "y": 23,
+            "y": 24,
             "type": "select",
             "title": "Isolation Feelings",
             "width": 12,
@@ -146,7 +146,7 @@
         },
         {
             "x": 0,
-            "y": 25,
+            "y": 26,
             "type": "select",
             "title": "Disconnection in Social Gatherings",
             "width": 12,
@@ -163,7 +163,7 @@
         },
         {
             "x": 0,
-            "y": 27,
+            "y": 28,
             "type": "inferred-text",
             "title": "Loneliness Risk Assessment",
             "width": 6,
@@ -176,7 +176,7 @@
         },
         {
             "x": 6,
-            "y": 27,
+            "y": 28,
             "type": "inferred-text",
             "title": "Personalized Strategies",
             "width": 6,
@@ -189,7 +189,7 @@
         },
         {
             "x": 0,
-            "y": 36,
+            "y": 37,
             "type": "chat",
             "title": "Warmifier Suggestion Bot",
             "width": 12,
